@@ -18,10 +18,10 @@ from apscheduler.schedulers.background import BackgroundScheduler
 
 # ---------------- Configuration ----------------
 # Replace the placeholders with your own API keys (or set them as environment variables)
-BINANCE_API_KEY = 'YOUR_BINANCE_API_KEY'
-BINANCE_API_SECRET = 'YOUR_BINANCE_API_SECRET'
-TELEGRAM_BOT_TOKEN = 'YOUR_TELEGRAM_BOT_TOKEN'
-SYMBOL = ''  # Example symbol
+BINANCE_API_KEY = 
+BINANCE_API_SECRET = 
+TELEGRAM_BOT_TOKEN = 
+SYMBOL =   # Example symbol
 LOOKBACK_DAYS =   
 
 # ---------------- Initialize Clients ----------------
