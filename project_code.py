@@ -3,7 +3,7 @@ Lite Version of Crypto Trading Bot
 ------------------------------------
 This is a simplified version of my crypto trading bot featuring core functionality.
 For the full version (including advanced prediction and live trading features),
-text me for the full code!
+text me  :)
 """
 
 import logging
