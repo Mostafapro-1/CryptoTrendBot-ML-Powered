@@ -21,8 +21,8 @@ from apscheduler.schedulers.background import BackgroundScheduler
 BINANCE_API_KEY = 'YOUR_BINANCE_API_KEY'
 BINANCE_API_SECRET = 'YOUR_BINANCE_API_SECRET'
 TELEGRAM_BOT_TOKEN = 'YOUR_TELEGRAM_BOT_TOKEN'
-SYMBOL = 'PEPEUSDT'  # Example symbol
-LOOKBACK_DAYS = 365  # One year of historical data
+SYMBOL = ''  # Example symbol
+LOOKBACK_DAYS =   
 
 # ---------------- Initialize Clients ----------------
 client = Client(BINANCE_API_KEY, BINANCE_API_SECRET)
