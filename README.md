@@ -13,17 +13,17 @@ I used Pandas and NumPy to handle and manipulate time-series data.
 2. Price Analysis:
 Using historical data collected, the bot calculates the mean and standard deviation of the closing prices. The logic is simple: if the latest closing price is below (mean – standard deviation), the bot considers it a potential "buy" opportunity otherwise, it advises to "wait". 
 
- 3.Price Prediction:
+3.Price Prediction:
 Implemented a dummy prediction model using TensorFlow and Keras. The model uses the last 30 closing prices and a simple neural network (with one hidden Dense layer) to predict the price for the next 24 hours. Although it’s a basic model (for demo purposes), it illustrates the potential for integrating more advanced ML techniques.
 
- 4.Telegram Integration:
+4.Telegram Integration:
 The bot interacts with user via Telegram commands:
 /start: Initializes the bot and sends an immediate market analysis.
 /buy: Executes a market buy order.
 /sell: Executes a market sell order.
 Built using the python-telegram-bot library .
 
- 5. Automated Analysis:
+5. Automated Analysis:
 Uses APScheduler to schedule hourly market analyses and push notifications to Telegram. 
 
 Why These Libraries?
