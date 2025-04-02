@@ -28,9 +28,14 @@ Uses APScheduler to schedule hourly market analyses and push notifications to Te
 
 Why These Libraries?
 Binance API & python-binance: fetching real-time and historical market data.
+
 Pandas & NumPy: Powerful tools for data manipulation.
+
 TensorFlow & Keras: for building and training predictive models.
+
 python-telegram-bot: making the bot interactive using Telegram messaging.
+
 APScheduler: Allows scheduling of tasks.
+
 Logging & Datetime: to track bot activity and handle time-related data accurately.
 
